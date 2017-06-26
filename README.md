@@ -87,3 +87,16 @@ maven, spring 4.3.9
 
 
 删除Servers面板中的Tomcat和Server文件夹。
+
+
+
+	eclipse添加XSD
+	• 点击窗口 --> 属性（Windows --> Preferences）
+	• 选择XML --> 目录（XML --> CataLog）
+	• 点击添加（Add）
+	• 添加XML目录（Add XML Catalog Entry）的窗口打开
+	• 点击map-icon的图标下面的按钮并选择文件系统（File System）
+	• 在打开的对话框中， 选择相应的XSD文件
+
+
+http://blog.csdn.net/zz_cl/article/details/52665536
