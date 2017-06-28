@@ -7,13 +7,12 @@
 <title>欢迎</title>
 </head>
 <body>
-	<h2>Hello World!</h2>
-
-	<form action="login">
-		用户名：<input id="username" name="username" type="text"></input><br>
-		密  码：<input id="username" name="password" type="password"></input><br>
-		<input type="submit">
-	</form>
-	<span>当前IP：<%=request.getRemoteAddr()%></span>
+	<h3>User name: ${user.name} has been deleted.</h3>
+	<h6>Detail:</h6>
+	<div>
+		<p>user id : ${user.id}.</p>
+		<p>user address : ${user.address}.</p>
+	</div>
+	<span>Sent using FreeMarker Template</span>
 </body>
 </html>
