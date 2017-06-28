@@ -1,0 +1,21 @@
+<html>
+<head>
+</head>
+<body>
+	<h3>User name: ${user1.name} has been deleted.</h3>
+	<h6>Detail:</h6>
+	<div>
+		<p>user id : ${user1.id}.</p>
+		<p>user address : ${user1.address}.</p>
+	</div>
+	<span>Sent using FreeMarker Template</span>
+	
+		<#list user1.courseList as course>
+		<ul>
+		<ui>${course.name}</ui>
+		<ui>${course.score}</ui>
+		</ul>
+		</#list>
+	
+</body>
+</html>

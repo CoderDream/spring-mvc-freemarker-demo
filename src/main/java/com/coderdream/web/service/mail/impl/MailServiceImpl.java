@@ -52,7 +52,7 @@ public class MailServiceImpl implements IMailService {
 				helper.setTo("acoder@126.com");
 				helper.setSubject("mail test.");
 				Map<String, Object> model = new HashMap<String, Object>();
-				model.put("user", obj);
+				model.put("user1", obj);
 				String text = getFreeMarkerTemplateContent(model);// Use
 																	// Freemarker
 				helper.setText(text, true);
